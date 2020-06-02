@@ -9,17 +9,34 @@ body {
   text-align: center;
   margin: auto;
   font-family: anton;
-  top: 200px;
+  top: 190px;
 }
 .subtitle {
   font-family: Source Code Pro;
   font-size: 30px;
   height: 20px;
   text-align: center;
+  width: fit-content;
   margin: auto;
   position: relative;
   top: 250px;
   margin-top: 15px;
+  animation-name: shining;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+.subtitle:hover {
+  cursor: pointer;
+}
+@keyframes shining {
+  0% {
+    color: black;
+  }
+
+  100% {
+    color: rgb(226, 66, 74);
+  }
 }
 .button-linked {
   background-color: white;
