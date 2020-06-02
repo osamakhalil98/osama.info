@@ -2,6 +2,108 @@ body {
   margin: 0;
   border: 12px solid black;
 }
+@media (max-width: 1080px) {
+  body {
+    margin: 0;
+    border: 8px solid black;
+  }
+  .name {
+    font-size: 20px;
+    height: 10px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    font-family: anton;
+    top: 70px;
+  }
+  .subtitle {
+    font-family: Source Code Pro;
+    font-size: 10px;
+    height: 5px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 90px;
+    margin-top: 8px;
+    animation-name: shining;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  .button-linked {
+    background-color: white;
+    border-radius: 100px 100px 100px 100px;
+    border: 2px solid black;
+    font-family: Source Code Pro;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    position: relative;
+    left: 100px;
+    margin: 8px;
+    color: black;
+    padding: 0.3em;
+    text-decoration: none;
+  }
+  .button-github {
+    background-color: white;
+    border-radius: 100px 100px 100px 100px;
+    border: 2px solid black;
+    font-family: Source Code Pro;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    position: relative;
+    left: 100px;
+    margin: 8px;
+    color: black;
+    padding: 0.3em;
+    text-decoration: none;
+  }
+  .button-resume {
+    background-color: white;
+    border-radius: 100px 100px 100px 100px;
+    border: 2px solid black;
+    font-family: Source Code Pro;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    position: relative;
+    left: 100px;
+    margin: 8px;
+    color: black;
+    padding: 0.3em;
+    text-decoration: none;
+  }
+  .button-fcc {
+    background-color: white;
+    border-radius: 100px 100px 100px 100px;
+    border: 2px solid black;
+    font-family: Source Code Pro;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    position: relative;
+    left: 100px;
+    margin: 8px;
+    color: black;
+    padding: 0.3em;
+    text-decoration: none;
+  }
+}
 .name {
   font-size: 60px;
   height: 20px;
