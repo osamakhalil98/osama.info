@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  border: 12px solid black;
+}
+.name {
+  font-size: 60px;
+  height: 20px;
+  position: relative;
+  text-align: center;
+  margin: auto;
+  font-family: anton;
+  top: 200px;
+}
+.subtitle {
+  font-family: Source Code Pro;
+  font-size: 30px;
+  height: 20px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 250px;
+  margin-top: 15px;
+}
+.button-linked {
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  font-family: Source Code Pro;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin: 8px;
+  color: black;
+  padding: 0.5em;
+  text-decoration: none;
+}
+.button-github {
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  font-family: Source Code Pro;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin: 8px;
+  color: black;
+  padding: 0.5em;
+  text-decoration: none;
+}
+.button-resume {
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  font-family: Source Code Pro;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin: 8px;
+  color: black;
+  padding: 0.5em;
+  text-decoration: none;
+}
+.button-fcc {
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid black;
+  font-family: Source Code Pro;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin: 8px;
+  color: black;
+  padding: 0.5em;
+  text-decoration: none;
+}
+a:hover {
+  border: 5px solid black;
+}
+.buttonsss {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  top: 300px;
+}
