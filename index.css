@@ -12,7 +12,7 @@ body {
     bottom: 15%;
   }
   #name {
-    font-size: 40px;
+    font-size: 35px;
     height: 7px;
     text-align: center;
     font-family: anton;
@@ -22,8 +22,7 @@ body {
     font-size: 20px;
     height: 0px;
     text-align: center;
-    margin: auto;
-    top: 340px;
+    top: 300px;
     position: relative;
     animation-name: shining;
     animation-duration: 3s;
@@ -96,7 +95,7 @@ body {
     display: block;
     width: fit-content;
     position: relative;
-    left: 82px;
+    left: 85px;
     margin: 8px;
     color: black;
     padding: 0.3em;
