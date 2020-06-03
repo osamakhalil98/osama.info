@@ -12,8 +12,8 @@ body {
     bottom: 15%;
   }
   #name {
-    font-size: 50px;
-    height: 10px;
+    font-size: 40px;
+    height: 7px;
     text-align: center;
     font-family: anton;
   }
@@ -96,7 +96,7 @@ body {
     display: block;
     width: fit-content;
     position: relative;
-    left: 80px;
+    left: 82px;
     margin: 8px;
     color: black;
     padding: 0.3em;
