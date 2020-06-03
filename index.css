@@ -7,25 +7,24 @@ body {
     margin: 0;
     border: 8px solid black;
   }
-  .name {
-    font-size: 20px;
-    height: 10px;
+  .nameAndSub {
     position: relative;
-    text-align: center;
-    margin: auto;
-    font-family: anton;
-    top: 70px;
+    bottom: 15%;
   }
-  .subtitle {
-    font-family: Source Code Pro;
-    font-size: 10px;
-    height: 5px;
+  #name {
+    font-size: 50px;
+    height: 10px;
     text-align: center;
-    width: fit-content;
+    font-family: anton;
+  }
+  #subtitle {
+    font-family: Source Code Pro;
+    font-size: 20px;
+    height: 0px;
+    text-align: center;
     margin: auto;
+    top: 340px;
     position: relative;
-    top: 90px;
-    margin-top: 8px;
     animation-name: shining;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -43,7 +42,7 @@ body {
     display: block;
     width: fit-content;
     position: relative;
-    left: 100px;
+    left: 80px;
     margin: 8px;
     color: black;
     padding: 0.3em;
@@ -61,7 +60,7 @@ body {
     display: block;
     width: fit-content;
     position: relative;
-    left: 100px;
+    left: 80px;
     margin: 8px;
     color: black;
     padding: 0.3em;
@@ -79,7 +78,7 @@ body {
     display: block;
     width: fit-content;
     position: relative;
-    left: 100px;
+    left: 80px;
     margin: 8px;
     color: black;
     padding: 0.3em;
@@ -97,7 +96,7 @@ body {
     display: block;
     width: fit-content;
     position: relative;
-    left: 100px;
+    left: 80px;
     margin: 8px;
     color: black;
     padding: 0.3em;
