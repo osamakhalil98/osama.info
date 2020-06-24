@@ -101,6 +101,23 @@ body {
     text-decoration: none;
   }
 }
+.lighting {
+  background-color: white;
+  border-radius: 100px 100px 100px 100px;
+  border: 2px solid black;
+  font-family: Source Code Pro;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+  color: black;
+  padding: 0.3em;
+  width: min-content;
+  text-decoration: none;
+}
+.lighting:hover {
+  cursor: pointer;
+}
 .name {
   font-size: 60px;
   height: 20px;
