@@ -21,12 +21,16 @@ body {
     font-size: 20px;
     height: 0px;
     text-align: center;
-    top: 300px;
+    top: 260px;
     position: relative;
     animation-name: shining;
     animation-duration: 3s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
+  }
+  .buttonsss {
+    position: relative;
+    margin-top: 20px;
   }
   .button-linked {
     background-color: white;
@@ -41,6 +45,7 @@ body {
     width: fit-content;
     position: relative;
     left: 80px;
+    bottom: 50px;
     margin: 8px;
     color: black;
     padding: 0.3em;
@@ -59,6 +64,7 @@ body {
     width: fit-content;
     position: relative;
     left: 80px;
+    bottom: 42px;
     margin: 8px;
     color: black;
     padding: 0.3em;
@@ -77,6 +83,7 @@ body {
     width: fit-content;
     position: relative;
     left: 80px;
+    bottom: 34px;
     margin: 8px;
     color: black;
     padding: 0.3em;
@@ -96,6 +103,7 @@ body {
     position: relative;
     left: 85px;
     margin: 8px;
+    bottom: 26px;
     color: black;
     padding: 0.3em;
     text-decoration: none;
@@ -108,7 +116,7 @@ body {
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
-  margin: 5px;
+  margin: 4px;
   color: black;
   padding: 0.3em;
   width: min-content;
@@ -117,6 +125,7 @@ body {
 .lighting:hover {
   cursor: pointer;
 }
+
 .name {
   font-size: 60px;
   height: 20px;
@@ -140,9 +149,6 @@ body {
   animation-duration: 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
-}
-.subtitle:hover {
-  cursor: pointer;
 }
 @keyframes shining {
   0% {
