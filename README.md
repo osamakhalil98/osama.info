@@ -2,7 +2,7 @@
 
 ## osama.info
 
-### simple web page that includes all my info
+### simple web page that contains all of my info
 
 happy coding!
 
