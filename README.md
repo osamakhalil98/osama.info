@@ -1,8 +1,6 @@
-<h1 style="textAlign = center"> Software Developer </h1>
+<h1 style="textAlign = center"> Software Developer - osama.info </h1>
 
-## osama.info
-
-### simple web page that contains all of my info
+### A simple web page that contains all of my info
 
 happy coding!
 
