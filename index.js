@@ -6,6 +6,8 @@ let dark = false;
 darkIcon.addEventListener("click", function () {
   if (dark === false) {
     dark = true;
+    darkIcon.classList.remove("fa-moon");
+    darkIcon.classList.add("fa-sun");
     darkIcon.style.color = "white";
     lisghting.style.backgroundColor = "black";
     document.body.style.cssText =
@@ -18,6 +20,8 @@ darkIcon.addEventListener("click", function () {
     }
   } else {
     dark = false;
+    darkIcon.classList.remove("fa-sun");
+    darkIcon.classList.add("fa-moon");
     darkIcon.style.color = "black";
     lisghting.style.backgroundColor = "white";
     document.body.style.cssText =
